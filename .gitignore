@@ -1,0 +1,7 @@
+# This file ignores certain files so they aren't tracked by git.
+# It's very important to ignore the huge fish dataset files.
+*.csv
+*.zip
+*.gz
+*.7z
+*.jpg
