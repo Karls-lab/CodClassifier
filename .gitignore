@@ -5,3 +5,5 @@
 *.gz
 *.7z
 *.jpg
+*._.DS_Store
+.DS_Store
