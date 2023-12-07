@@ -1,0 +1,17 @@
+Remove all augmented Images in the image folers:
+    find images -type f -name '*_aug.txt' -o -name '*_aug.jpg' -exec rm {} +
+
+
+Run this command to list image file locations for training: 
+    find $(pwd)/yoloAnnotations/images -type f -name "*.jpg" > data/train.list
+
+Cudnn path: sudo find / -name cudnn.h:
+    home/rashaka/.local/lib/python3.10/site-packages/nvidia/cudnn/include/cudnn.h
+YOLO Training command: 
+    ~/darknet/./darknet detector train custom.data Setup/yolov3.cfg Setup/yolov4.conv.137
+    ~/darknet/./darknet detector train custom.data Setup/yolov3.cfg backup/yolov3_3000.weights -pretrained
+    ~/darknet/./darknet detector train custom.data Setup/yolov3.cfg backup/yolov3_3000.weights -pretrained
+
+
+    ~/darknet/./darknet detector train custom.data Setup/yolov4.cfg 
+

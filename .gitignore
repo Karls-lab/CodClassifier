@@ -7,3 +7,8 @@
 *.jpg
 *._.DS_Store
 .DS_Store
+*.txt
+*.weights
+*.137
+*.cfg
+main/YOLO-Boxes/Setup/yolov4.conv.137
