@@ -40,4 +40,6 @@ Dependencies:
 
 Usage
     Run the program by navigating to FinalModel.ipynb
+    Restart all kernels
+    Click 'Run All'
 
